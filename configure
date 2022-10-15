@@ -31,6 +31,10 @@ my %targets = (
         SRC => 'linux/x86_32',
         SHARED => 1,
     },
+    'nyx-x86_64' => {
+	SRC => 'nyx/x86_64',
+	SHARED => 0,
+    },
     'seac' => {
         SRC => 'seac',
         # SEAC doesn't support shared lib
